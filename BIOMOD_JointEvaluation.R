@@ -1,7 +1,6 @@
 
 
-BIOMOD_JointEvaluation <- function(models=x,ensMods=NULL,metrics=NULL,weights=NULL){ ###evaluacion rankeada
-
+BIOMOD_JointEvaluation <- function(models=x,ensMods=NULL,metrics=NULL,weights=NULL){ 
 
   if(file.exists("algoRankResults")==F){dir.create("algoRankResults")}else{"OK"}
 
